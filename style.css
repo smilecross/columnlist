@@ -1,0 +1,147 @@
+@charset 'utf8';
+
+
+body {
+    width: 560px;
+    margin: auto;
+    background-color: rgb(222, 244, 221);
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: #630;
+    /* line-height: 25px; */
+    font-size: 14px;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+}
+
+select,
+input {
+    font-size: 80%;
+    background-color: White;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    height: auto;
+}
+
+/* Fieldset */
+#myFieldset {
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* テーブル */
+/* main {
+    background-color: #a3d5d3;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(222, 244, 221);
+}
+
+table {
+    table-layout: fixed;
+    margin-top: 50px;
+} */
+
+
+table,
+tr,
+th,
+td {
+    font-size: 14px;
+    width: 90%;
+    list-style-type: none;
+    border-radius: 5px;
+    border: 1px solid #004117;
+    padding: 5px;
+    background-color: #fff;
+}
+
+td {
+    width: 100%;
+    background: #eeeff0;
+    padding-left: 15px;
+}
+
+.columnlist {
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* 入力項目 */
+
+#date {
+    width: 150px;
+    height: 50px;
+}
+
+.column_box #category {
+    width: 150px;
+    height: 50px;
+}
+
+#app_name {
+    width: 150px;
+    height: 50px;
+}
+
+.column_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 5px;
+
+}
+
+/* コメント */
+#comment {
+    font-size: 14px;
+    width: 560px;
+    height: 200px;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* 保存ボタン */
+button {
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* グラフ */
+#graphContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
